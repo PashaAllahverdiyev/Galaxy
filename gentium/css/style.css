@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+   
+    
+}
+.all-logos{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.all-logos a{
+    color: #fff;
+}
+.a2 a{
+    padding: 20px;
+    text-decoration: none;
+    
+    
+}
+.a1 a{
+    text-decoration: none;
+}
+
+
+.a2{
+    padding-right: 130px;
+    font-size: 20px;
+    display: flex;
+    
+}
+.a1{
+    padding-left: 150px;
+    font-size: 50px;
+}
+.a2 i{
+    
+}
+.hrclass hr{
+    width: 6%;
+    
+   
+    
+}
+     
+
+.hrclass{
+    padding-top: 85px;
+    padding-left: 120px;
+}
+.text1{
+    color: #ffff;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #e9204f;
+    padding: 20px 40px 20px 40px
+    
+}
+.divbutton{
+    padding-top: 40px;
+}
+.div2{
+    display: flex;
+
+}
+.image img{
+    width: 65%;
+
+   
+    
+}
+.image{
+    
+    
+    
+    
+}
+.box i{
+    background-color: #fff;
+    position: absolute;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 100%;
+    
+}
+.box{
+    display: flex;
+}
+
+.newtexts{
+   
+    padding-left: 150px;
+}
+.newtexts h3{
+    color: red;
+    font-size: 20px;
+}
+.new1 h1{
+    color:#fff;
+    font-size: 60px;
+}
+.new2 h1{
+    color: red;
+    font-size: 20px;
+}
+.newtexts{
+    display: flex;
+    justify-content: space-between;
+}
+.aclass a{
+   margin: 80px;
+    background-color: red;  
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    
+}
