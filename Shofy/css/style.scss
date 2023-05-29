@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+ text-decoration: none;
+
+}
+.all{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 120%;
+    padding: 12px 0px 12px 50px;
+    border-bottom: 1px solid #785858;
+    .nav{
+        align-items: center;
+      a{
+        color: white;
+        font-size: 16px;
+        padding: 17px 0;
+        font-family: 'Jost', sans-serif;
+        font-weight: normal;
+        padding: 0 15px;
+        i{
+            font-size: 13px;
+
+            color: white;
+        }
+      }
+      
+    }
+    .icons{
+        position: relative;
+        cursor: pointer;
+        i{
+            padding: 0px 10px;
+            font-size: 20px;
+            color: white;
+        }
+        .heartnum{
+            position: absolute;
+            top: -8px;
+            right: 38px;
+            font-size: 12px;
+            padding: 3px 9px;
+            border-radius: 100px;
+            color: black;
+            background-color: white;
+        }
+        .bagnum{
+            position: absolute;
+            top: -8px;
+            right: -10px;
+            font-size: 12px;
+            padding: 3px 9px;
+            border-radius: 100px;
+            color: black;
+            background-color: white;
+
+        }
+    }
+
+}
+#demo{
+    background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    .back{
+    background-image:radial-gradient(101.74% 101.74% at 68.02% 59.68%, rgba(15, 1, 5, 0) 27.48%, rgba(15, 1, 5, 0.5) 86.14%);
+   padding: 11rem 0 11rem 11rem;
+    .text{
+        span{
+            color: white;
+            font-size: 30px;
+            font-weight: 400;
+            font-family: 'Charm', cursive;
+
+        }
+        h3{
+            color: white;
+            font-size: 100px;
+            font-family: 'Jost', sans-serif;
+            font-weight: 400;
+            
+        }
+    }
+    .text2{
+       display: flex;
+       justify-content: space-between;
+      
+       width: 28%;
+       .text-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            color: white;
+            margin: 0px 10px 0px 20px;
+        }
+        h3{
+            font-family: 'Jost', sans-serif;
+            color: white;
+            font-size: 16px;
+            font-weight:400;
+            margin-right: 30px;
+
+
+        }
+        hr{
+            width: 1%;
+            height: 6vh;
+            border: 1px solid white;
+        }
+       }
+    }
+    .text3{
+        a{ 
+            font-family: 'Jost', sans-serif;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 8px 25px;
+            border: 1px solid #b29689;
+            transition: 0.4s;
+        }
+        a:hover{
+            border: 1px solid black;
+            background-color: black;
+        }
+    }
+    }
+}
